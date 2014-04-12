@@ -1,0 +1,41 @@
+/* main */
+#face {
+	background: #000;
+	width: 600px;
+	height: 400px;
+}
+
+#mainCanvas {
+	position: fixed;
+}
+
+.texture-watercolor-blue {
+	background: url("../images/texture-watercolor-blue.jpg");
+}
+
+.video-front {
+	background: url("../images/video-player-background.jpg");
+	background-size: cover;
+}
+
+.texture-angled-lines {
+	background: url("../images/texture-angled-lines.png");
+}
+
+.texture-cross-hatch {
+	background: url("../images/texture-cross-hatch.png");
+}
+
+.texture-cardboard-edge {
+	background: url("../images/texture-cardboard-edge.jpg");
+}
+
+.texture-cardboard-side {
+	background: url("../images/texture-cardboard-side.jpg");
+}
+
+/* --- fpo -----*/
+
+.cloud {
+	background: url("../images/cloud-fpo.png");
+}

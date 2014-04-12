@@ -1,0 +1,161 @@
+body {
+	background-color: #222;
+}
+
+#nav {
+	font-family: 'Rokkitt', serif;
+	background-color: #333333;
+	height: 50px;
+	position: fixed;
+	width: 100%;
+	right: 0;
+  	left: 0;
+  	z-index: 1024;
+  	overflow: hidden;
+}
+
+#nav .nav-selector {
+	position: absolute;
+	width: 40px;
+	height: 50px;
+	left: 15px;
+	background-color: #555555;
+	
+}
+
+#nav .nav-date-group {
+	position: absolute;
+	margin-left: 3%;
+	margin-right: 3%;
+	margin-top: 14px;
+	width: 300%;
+	vertical-align: middle;
+}
+
+#nav .nav-date {
+	color: #999;
+	font-size: 25px;
+	display: inline-block;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+#nav .nav-ticks {
+	color: #777;
+	display: inline-block;
+	margin-left: .5%;
+	margin-right: .5%;
+}
+
+#nav .nav-half-tick {
+	font-size: 25px;
+}
+
+.scroll-holder {
+	height: 100%;
+}
+
+.item-container {
+	position: absolute;
+	width: 100%;
+	/*max-width: 1020px;*/
+	padding-top: 50px;
+}
+
+/* images and info */
+
+.media-single {
+	-webkit-box-shadow: 0px 5px 20px 1px rgba(0,0,0,1);
+	-moz-box-shadow: 0px 5px 20px 1px rgba(0,0,0,1);
+	box-shadow: 0px 5px 20px 1px rgba(0,0,0,1);
+	margin: 30px 30px 30px 30px;
+	border-style:solid;
+	border-width:5px;
+	border-color: #fff;
+	float: right;
+	width: 50%;
+	min-width: 400px;
+	max-width: 500px;
+}
+
+.info-block {
+	text-align: left;
+	font-family: 'Rokkitt', serif;
+	font-size: 18;
+	color: white;
+	z-index: 100;
+	margin-left: 30px;
+	letter-spacing: .50px;
+	line-height: 20px;
+	width: 35%;
+	max-width: 400px;
+	min-width: 300px;
+}
+
+.info-block h2 {
+	font-family: 'Fredericka the Great', cursive;
+	font-size: 30px;
+	margin-bottom: 3px;
+	color: #68a6d6;
+	line-height: 34px;
+
+}
+
+
+.info-block .attribution {
+	font-size: 20px;
+	opacity: 0.7;
+	margin-bottom: 10px;
+}
+
+.item {
+	position: relative;
+	width: 100%;
+}
+
+.item-foreground {
+	position: absolute;
+	width: 100%;
+}
+
+.item-midground {
+	width: 100%;
+	height: 400px;
+	text-align: center;
+}
+
+
+.item-background {
+	position: absolute;
+	z-index: -100;
+	width: 100%;
+}
+
+.item-background-image {
+	width: 100%;
+
+}
+
+
+@media (max-width: 700px) {
+	.info-block {
+		margin-top: 250px;
+		margin-left: auto;
+		margin-right: auto;
+		width: 400px;
+	}
+
+	.item-midground {
+		height: 600px
+	}
+
+	.media-single {
+		margin-left: auto;
+		margin-right: auto;
+		float: none;
+	}
+}
+
+
+
+
